@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background: linear-gradient(#0a2a0a, #062006);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+#gameContainer {
+  text-align: center;
+  position: relative;
+}
+
+#logo {
+  font-size: 32px;
+  font-weight: 900;
+  background: #00ffc6;
+  color: black;
+  padding: 10px;
+}
+
+#gameCanvas {
+  background: url('https://i.imgur.com/0b1qzJr.png') repeat-x;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+#scoreBoard {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#banner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,255,200,0.8);
+  color: black;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 28px;
+  display: none;
+  font-weight: bold;
+}
